@@ -1,3 +1,3 @@
 # JavaStudy
-Now I start to study Java,Good luck!
-FirstBook：《Head First Java》
+<br>Now I start to study Java,Good luck!
+<br>FirstBook：《Head First Java》
