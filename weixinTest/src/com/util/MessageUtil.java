@@ -69,22 +69,22 @@ public class MessageUtil {
 
     public static String menuText(){
         StringBuffer stringBuffer = new StringBuffer();
-        stringBuffer.append("<![CDATA[欢迎关注，请操作：\n\n");
+        stringBuffer.append("CDATA[欢迎关注，请操作：\n\n");
         stringBuffer.append("1、选项一\n");
         stringBuffer.append("2、选项二\n");
-        stringBuffer.append("回复？调出此菜单]]>");
+        stringBuffer.append("回复？调出此菜单");
         return stringBuffer.toString();
     }
     public static String firstText(){
         StringBuffer stringBuffer = new StringBuffer();
-        stringBuffer.append("<![CDATA[这是选项一");
-        stringBuffer.append("回复？调出此菜单]]>");
+        stringBuffer.append("CDATA[这是选项一");
+        stringBuffer.append("回复？调出此菜单");
         return stringBuffer.toString();
     }
     public static String secondText(){
         StringBuffer stringBuffer = new StringBuffer();
-        stringBuffer.append("<![CDATA[这是选项二");
-        stringBuffer.append("回复？调出此菜单]]>");
+        stringBuffer.append("CDATA[这是选项二");
+        stringBuffer.append("回复？调出此菜单");
         return stringBuffer.toString();
     }
 

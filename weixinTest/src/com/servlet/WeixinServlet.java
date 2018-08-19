@@ -59,7 +59,7 @@ public class WeixinServlet extends HttpServlet {
                     text.setToUserName(fromUserName);
                     text.setMsgType("text");
                     text.setCreateTime(Long.toString(new Date().getTime()));
-                    text.setContent("<![CDATA[您发送的消息是：" + content+"]]>");
+                    text.setContent("您发送的消息是：" + content+"");
 
                     message = MessageUtil.textMessageToXml(text);
                 }

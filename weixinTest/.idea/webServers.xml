@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a75a0838-902d-4d18-853d-3997f043ff93" name="DORemote" url="http://188.166.110.111">
+        <fileTransfer host="188.166.110.111" port="22" rootFolder="/usr/local/tomcat8180/webapps" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
