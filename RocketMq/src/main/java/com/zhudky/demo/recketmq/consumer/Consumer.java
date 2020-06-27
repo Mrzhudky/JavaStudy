@@ -9,13 +9,12 @@ import org.apache.rocketmq.common.message.MessageExt;
 import java.util.Base64;
 
 /**
- * @author : zhumengqing001
  * @date : Create in 2020/6/26 11:33 上午
  */
 
 @Slf4j
 public class Consumer {
-    private String namesrvAddr = "10.26.28.165:9876";
+    private String namesrvAddr = "127.0.0.1:9876";
 
     public void consume() throws Exception {
         // 实例化消费者

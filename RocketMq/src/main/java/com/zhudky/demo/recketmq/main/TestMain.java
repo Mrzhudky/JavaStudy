@@ -9,7 +9,6 @@ import lombok.extern.slf4j.Slf4j;
 import javax.annotation.processing.ProcessingEnvironment;
 
 /**
- * @author : zhumengqing001
  * @date : Create in 2020/6/26 11:34 上午
  */
 public class TestMain {

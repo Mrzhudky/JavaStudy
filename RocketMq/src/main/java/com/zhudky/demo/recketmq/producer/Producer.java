@@ -4,14 +4,10 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.rocketmq.client.producer.DefaultMQProducer;
 import org.apache.rocketmq.common.message.Message;
 
-/**
- * @author : zhumengqing001
- * @date : Create in 2020/6/26 11:33 上午
- */
 @Slf4j
 public class Producer {
 
-    private String namesrvAddr = "10.26.28.165:9876";
+    private String namesrvAddr = "127.0.0.1:9876";
 
     public void produce() throws Exception {
         // 实例化一个生产者来产生延时消息
